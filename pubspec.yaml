@@ -30,14 +30,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  permission_handler: ^10.2.0
+  permission_handler: ^11.3.1
   camera: ^0.10.0
-  flutter_tts: ^3.2.1
-  image: ^4.2.0 
-  google_fonts: ^3.0.1
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.6
+  flutter_tts: ^3.8.5
+  google_fonts: ^6.2.1
+  http: ^1.2.2
+  audioplayers: ^6.1.0
+  speech_to_text: ^7.0.0
 
 dev_dependencies:
   flutter_test:
@@ -62,7 +61,9 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/icon/icon.png
+    - assets/icon/logo.png
+    - assets/sound/shutter.wav
+    - assets/sound/start_voice_capture.wav
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

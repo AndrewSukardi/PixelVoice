@@ -1,4 +1,4 @@
-package com.example.vocallens
+package com.example.pixelvoice
 
 import io.flutter.embedding.android.FlutterActivity
 
